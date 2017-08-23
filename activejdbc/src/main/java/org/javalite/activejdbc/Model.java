@@ -2869,7 +2869,8 @@ public abstract class Model extends CallbackSupport implements Externalizable {
 
     /**
      * Turns off automatic management of time-related attributes <code>created_at</code> and <code>updated_at</code>.
-     * If management of time attributes is turned off,
+     * If management of time attributes is turned off, you can set the <code>updated_at</code> and <code>created_at</code>
+     * manually in code, and the framework will not interfere.
      *
      * @param manage if true, the attributes are managed by the model. If false, they are managed by developer.
      */
